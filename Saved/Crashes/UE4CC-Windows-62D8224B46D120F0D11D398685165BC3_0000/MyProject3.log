@@ -1,0 +1,575 @@
+﻿Log file open, 05/11/18 11:39:04
+LogInit:Display: Running engine for game: MyProject3
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1139384096) SRandInit(1139384096).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.102419
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.05.11-16.39.05:611][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.11-16.39.05:611][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.11-16.39.05:656][  0]LogInit: Computer: WH-RM337-S5
+[2018.05.11-16.39.05:656][  0]LogInit: User: sk93183
+[2018.05.11-16.39.05:656][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.11-16.39.05:656][  0]LogInit: High frequency timer resolution =3.020483 MHz
+[2018.05.11-16.39.05:657][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2018.05.11-16.39.05:657][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.11-16.39.05:657][  0]LogMemory: Process Physical Memory: 271.84 MB used, 271.84 MB peak
+[2018.05.11-16.39.05:657][  0]LogMemory: Process Virtual Memory: 258.36 MB used, 258.36 MB peak
+[2018.05.11-16.39.05:657][  0]LogMemory: Physical Memory: 6083.12 MB used,  2065.82 MB free, 8148.94 MB total
+[2018.05.11-16.39.05:657][  0]LogMemory: Virtual Memory: 635.26 MB used,  2065.82 MB free, 134217728.00 MB total
+[2018.05.11-16.39.05:754][  0]LogInit: Using OS detected language (en-US).
+[2018.05.11-16.39.05:754][  0]LogInit: Using OS detected locale (en-US).
+[2018.05.11-16.39.05:758][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.05.11-16.39.07:196][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.11-16.39.07:223][  0]LogD3D11RHI:    0. 'AMD Radeon HD 7700 Series' (Feature Level 11_0)
+[2018.05.11-16.39.07:223][  0]LogD3D11RHI:       1005/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2018.05.11-16.39.07:225][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.11-16.39.07:225][  0]LogD3D11RHI:       0/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.11-16.39.07:225][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.11-16.39.07:233][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.11-16.39.07:233][  0]LogD3D11RHI:     GPU DeviceId: 0x683f (for the marketing name, search the web for "GPU Device Id")
+[2018.05.11-16.39.07:233][  0]LogWindows: EnumDisplayDevices:
+[2018.05.11-16.39.07:233][  0]LogWindows:    0. 'AMD Radeon HD 7700 Series' (P:1 D:1)
+[2018.05.11-16.39.07:233][  0]LogWindows:    1. 'AMD Radeon HD 7700 Series' (P:0 D:0)
+[2018.05.11-16.39.07:234][  0]LogWindows:    2. 'AMD Radeon HD 7700 Series' (P:0 D:0)
+[2018.05.11-16.39.07:234][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2018.05.11-16.39.07:234][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 7700 Series
+[2018.05.11-16.39.07:234][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.1.1 (internal:22.19.162.4, unified:22.19.162.4)
+[2018.05.11-16.39.07:234][  0]LogD3D11RHI:      Driver Date: 4-24-2017
+[2018.05.11-16.39.07:234][  0]LogRHI: Texture pool is 703 MB (70% of 1005 MB)
+[2018.05.11-16.39.07:266][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.11-16.39.07:279][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.05.11-16.39.07:280][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/sk93183/Documents/Unreal Projects/MyProject3/Intermediate/Shaders/WorkingDirectory/13632/).
+[2018.05.11-16.39.07:280][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sk93183/AppData/Local/Temp/UnrealShaderWorkingDir/61294DE1497208D21BB85A9604F1EAA4/'.
+[2018.05.11-16.39.07:280][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.05.11-16.39.08:814][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.11-16.39.08:892][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.05.11-16.39.08:969][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.11-16.39.09:046][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.05.11-16.39.09:123][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.05.11-16.39.09:199][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.11-16.39.09:277][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.11-16.39.09:359][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.11-16.39.09:429][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.05.11-16.39.09:502][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.05.11-16.39.09:577][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.11-16.39.09:652][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.11-16.39.09:724][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.11-16.39.09:798][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.11-16.39.09:873][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.11-16.39.10:033][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.11-16.39.10:033][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.11-16.39.10:101][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.05.11-16.39.10:233][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.05.11-16.39.10:275][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.05.11-16.39.10:349][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.11-16.39.10:421][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.11-16.39.10:497][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.11-16.39.10:605][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.05.11-16.39.10:605][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.05.11-16.39.11:555][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.05.11-16.39.11:728][  0]LogDerivedDataCache: Loaded boot cache 0.17s 90MB C:/Users/sk93183/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.05.11-16.39.11:728][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/sk93183/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.05.11-16.39.11:728][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/sk93183/Documents/Unreal Projects/MyProject3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.11-16.39.11:728][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.11-16.39.11:728][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/sk93183/Documents/Unreal Projects/MyProject3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.11-16.39.11:728][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.11-16.39.11:752][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.11-16.39.11:764][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sk93183/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.11-16.39.11:780][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.11-16.39.11:780][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.11-16.39.11:781][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.11-16.39.11:781][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.11-16.39.12:300][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.11-16.39.12:444][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.05.11-16.39.12:685][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.11-16.39.12:758][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.11-16.39.12:830][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.11-16.39.12:830][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.05.11-16.39.12:830][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.05.11-16.39.13:636][  0]LogNetVersion: MyProject3 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3387135090)
+[2018.05.11-16.39.13:713][  0]LogAssetRegistry: FAssetRegistry took 0.0273 seconds to start up
+[2018.05.11-16.39.13:816][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.074147 seconds
+[2018.05.11-16.39.13:823][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.05.11-16.39.13:824][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.05.11-16.39.13:824][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.11-16.39.13:929][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.11-16.39.17:699][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.11-16.39.17:751][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.11-16.39.18:527][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.11-16.39.19:146][  0]SourceControl: Info Source control is disabled
+[2018.05.11-16.39.19:148][  0]SourceControl: Info Source control is disabled
+[2018.05.11-16.39.19:218][  0]SourceControl: Info Source control is disabled
+[2018.05.11-16.39.19:289][  0]SourceControl: Info Source control is disabled
+[2018.05.11-16.39.20:289][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.11-16.39.21:226][  0]LogEngine: Initializing Engine...
+[2018.05.11-16.39.21:227][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.11-16.39.21:558][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.11-16.39.21:558][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.11-16.39.21:764][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.11-16.39.21:769][  0]LogInit: No audio devices found!
+[2018.05.11-16.39.21:824][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/sk93183/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.05.11-16.39.21:846][  0]LogInit: Texture streaming: Enabled
+[2018.05.11-16.39.21:990][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.11-16.39.22:333][  0]LogInit: Transaction tracking system initialized
+[2018.05.11-16.39.22:823][  0]BlueprintLog: New page: Editor Load
+[2018.05.11-16.39.24:266][  0]LocalizationService: Info Localization service is disabled
+[2018.05.11-16.39.25:339][  0]LogConsoleResponse:Display: 
+[2018.05.11-16.39.25:564][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.11-16.39.25:564][  0]LogCook:Display: Mobile HDR setting 1
+[2018.05.11-16.39.25:569][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sk93183/Documents/Unreal Projects/MyProject3/Content/' took 0.02s
+[2018.05.11-16.39.27:237][  0]SourceControl: Info Source control is disabled
+[2018.05.11-16.39.27:237][  0]Cmd: MAP LOAD FILE="../../../../../../Users/sk93183/Documents/Unreal Projects/MyProject3/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.11-16.39.27:238][  0]LightingResults: New page: Lighting Build
+[2018.05.11-16.39.27:300][  0]MapCheck: New page: Map Check
+[2018.05.11-16.39.27:300][  0]LightingResults: New page: Lighting Build
+[2018.05.11-16.39.29:948][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.05.11-16.39.30:008][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.11-16.39.30:027][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.11-16.39.30:124][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 97.126ms to complete.
+[2018.05.11-16.39.30:124][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.887
+[2018.05.11-16.39.30:448][  0]LogCollectionManager: Loaded 0 collections in 0.002553 seconds
+[2018.05.11-16.39.30:713][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sk93183/Documents/Unreal Projects/MyProject3/Saved/Collections/' took 0.02s
+[2018.05.11-16.39.30:713][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sk93183/Documents/Unreal Projects/MyProject3/Content/Developers/sk93183/Collections/' took 0.01s
+[2018.05.11-16.39.30:713][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sk93183/Documents/Unreal Projects/MyProject3/Content/Collections/' took 0.00s
+[2018.05.11-16.39.30:713][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2018.05.11-16.39.30:730][  0]LogContentBrowser: Native class hierarchy populated in 0.0144 seconds. Added 2329 classes and 491 folders.
+[2018.05.11-16.39.30:880][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.05.11-16.39.31:584][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2018.05.11-16.39.31:667][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.05.11-16.39.31:785][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.05.11-16.39.31:803][  0]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.11-16.39.31:806][  0]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.11-16.39.31:824][  0]LogSlate: Took 0.007970 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.11-16.39.32:086][  0]LogRenderer: Reallocating scene render targets to support 1140x620 NumSamples 1 (Frame:1).
+[2018.05.11-16.39.32:507][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.05.11-16.39.32:589][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.05.11-16.39.32:589][  0]LogLoad: (Engine Initialization) Total time: 29.27 seconds
+[2018.05.11-16.39.32:589][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.26 seconds
+[2018.05.11-16.39.32:589][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.05.11-16.39.32:930][  0]LogOcInput: OculusInput pre-init called
+[2018.05.11-16.39.32:930][  0]LogHMD: Starting GearVRController plugin
+[2018.05.11-16.39.32:955][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.11-16.39.33:076][  0]LogRenderer: Reallocating scene render targets to support 1140x640 NumSamples 1 (Frame:2).
+[2018.05.11-16.39.33:076][  0]LogSlate: Took 0.011854 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.11-16.39.33:294][  1]LogAssetRegistry: Asset discovery search completed in 19.6038 seconds
+[2018.05.11-16.39.33:297][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.05.11-16.39.33:297][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000043 seconds (updated 0 objects)
+[2018.05.11-16.43.02:770][468]LogSlate: Took 0.000359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.11-16.43.03:362][494]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.11-16.43.04:065][494]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2018.05.11-16.43.05:091][494]LogSlate: Took 0.016436 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.11-16.43.05:366][495]LogSlate: Took 0.006086 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.11-16.43.32:761][725]LogHttp:Warning: 000001469642A980: request failed, libcurl error: 0 (No error)
+[2018.05.11-16.43.32:761][725]LogHttp:Warning: 000001469642A980: libcurl info message cache 0 (  Trying 34.225.34.243...)
+[2018.05.11-16.43.32:762][725]LogHttp:Warning: 000001469642A980: libcurl info message cache 1 (Connected to datarouter.ol.epicgames.com (34.225.34.243) port 443 (#0))
+[2018.05.11-16.43.32:762][725]LogHttp:Warning: 000001469642A980: libcurl info message cache 2 (ALPN, offering http/1.1)
+[2018.05.11-16.43.32:762][725]LogHttp:Warning: 000001469642A980: libcurl info message cache 3 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.11-16.43.32:762][725]LogHttp:Warning: 000001469642A980: libcurl info message cache 4 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.11-16.43.32:762][725]LogHttp:Warning: 000001469642A980: libcurl info message cache 5 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.11-16.43.32:762][725]LogHttp:Warning: 000001469642A980: libcurl info message cache 6 (Closing connection 0)
+[2018.05.11-16.44.33:038][764]LogHttp:Warning: 000001469642A200: request failed, libcurl error: 0 (No error)
+[2018.05.11-16.44.33:038][764]LogHttp:Warning: 000001469642A200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1468c3d7fe8 [serially])
+[2018.05.11-16.44.33:038][764]LogHttp:Warning: 000001469642A200: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.11-16.44.33:038][764]LogHttp:Warning: 000001469642A200: libcurl info message cache 2 (  Trying 52.2.250.239...)
+[2018.05.11-16.44.33:038][764]LogHttp:Warning: 000001469642A200: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.2.250.239) port 443 (#1))
+[2018.05.11-16.44.33:038][764]LogHttp:Warning: 000001469642A200: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.11-16.44.33:038][764]LogHttp:Warning: 000001469642A200: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.11-16.44.33:038][764]LogHttp:Warning: 000001469642A200: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.11-16.44.33:038][764]LogHttp:Warning: 000001469642A200: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.11-16.44.33:038][764]LogHttp:Warning: 000001469642A200: libcurl info message cache 8 (Closing connection 1)
+[2018.05.11-16.46.10:997][180]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2018.05.11-16.46.33:786][260]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 ../../../../../../Users/sk93183/Downloads/Big Rock Rolling Sound Effect (1).mp3)
+[2018.05.11-16.46.33:822][261]LogHttp:Warning: 000001471B8A6200: request failed, libcurl error: 0 (No error)
+[2018.05.11-16.46.33:822][261]LogHttp:Warning: 000001471B8A6200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1468c3d7fe8 [serially])
+[2018.05.11-16.46.33:822][261]LogHttp:Warning: 000001471B8A6200: libcurl info message cache 1 (  Trying 34.234.228.226...)
+[2018.05.11-16.46.33:822][261]LogHttp:Warning: 000001471B8A6200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.234.228.226) port 443 (#2))
+[2018.05.11-16.46.33:822][261]LogHttp:Warning: 000001471B8A6200: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.11-16.46.33:822][261]LogHttp:Warning: 000001471B8A6200: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.11-16.46.33:822][261]LogHttp:Warning: 000001471B8A6200: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.11-16.46.33:822][261]LogHttp:Warning: 000001471B8A6200: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.11-16.46.33:822][261]LogHttp:Warning: 000001471B8A6200: libcurl info message cache 7 (Closing connection 2)
+[2018.05.11-16.48.33:465][245]LogHttp:Warning: 000001471A5CCD00: request failed, libcurl error: 0 (No error)
+[2018.05.11-16.48.33:465][245]LogHttp:Warning: 000001471A5CCD00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1468c3d7fe8 [serially])
+[2018.05.11-16.48.33:465][245]LogHttp:Warning: 000001471A5CCD00: libcurl info message cache 1 (  Trying 35.170.31.121...)
+[2018.05.11-16.48.33:465][245]LogHttp:Warning: 000001471A5CCD00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (35.170.31.121) port 443 (#3))
+[2018.05.11-16.48.33:465][245]LogHttp:Warning: 000001471A5CCD00: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.11-16.48.33:465][245]LogHttp:Warning: 000001471A5CCD00: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.11-16.48.33:465][245]LogHttp:Warning: 000001471A5CCD00: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.11-16.48.33:465][245]LogHttp:Warning: 000001471A5CCD00: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.11-16.48.33:465][245]LogHttp:Warning: 000001471A5CCD00: libcurl info message cache 7 (Closing connection 3)
+[2018.05.11-16.49.34:399][423]LogSavePackage: Save=1059.33ms
+[2018.05.11-16.49.34:399][423]LogSavePackage: Moving '../../../../../../Users/sk93183/Documents/Unreal Projects/MyProject3/Saved/FirstPersonExampleMap_Auto10BA404D24BE0C335758DB6AD69A411A2.tmp' to '../../../../../../Users/sk93183/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2018.05.11-16.49.34:428][423]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sk93183/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2018.05.11-16.49.34:437][423]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.173
+[2018.05.11-16.49.34:438][423]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.173
+[2018.05.11-16.49.34:441][423]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CustomConent/Sounds/Big_Rock_Rolling_Sound_Effect__1_] ([1] browsable assets)...
+[2018.05.11-16.49.34:441][423]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomConent/Sounds/Big_Rock_Rolling_Sound_Effect__1_]
+[2018.05.11-16.49.34:455][423]LogSavePackage: Save=9.99ms
+[2018.05.11-16.49.34:455][423]LogSavePackage: Moving '../../../../../../Users/sk93183/Documents/Unreal Projects/MyProject3/Saved/Big_Rock_Rolling_Sound_Effect__1__Auto1044806AD420855109C89F98613A27544.tmp' to '../../../../../../Users/sk93183/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/CustomConent/Sounds/Big_Rock_Rolling_Sound_Effect__1__Auto1.uasset'
+[2018.05.11-16.49.34:456][423]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sk93183/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/CustomConent/Sounds/Big_Rock_Rolling_Sound_Effect__1__Auto1.uasset
+[2018.05.11-16.49.34:456][423]LogFileHelpers: Auto-saving content packages took 0.016
+[2018.05.11-16.49.34:515][424]LogHttp:Warning: 0000014696A01180: request failed, libcurl error: 0 (No error)
+[2018.05.11-16.49.34:516][424]LogHttp:Warning: 0000014696A01180: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1468c3d7fe8 [serially])
+[2018.05.11-16.49.34:516][424]LogHttp:Warning: 0000014696A01180: libcurl info message cache 1 (  Trying 52.45.142.200...)
+[2018.05.11-16.49.34:516][424]LogHttp:Warning: 0000014696A01180: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.45.142.200) port 443 (#4))
+[2018.05.11-16.49.34:516][424]LogHttp:Warning: 0000014696A01180: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.11-16.49.34:516][424]LogHttp:Warning: 0000014696A01180: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.11-16.49.34:516][424]LogHttp:Warning: 0000014696A01180: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.11-16.49.34:516][424]LogHttp:Warning: 0000014696A01180: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.11-16.49.34:516][424]LogHttp:Warning: 0000014696A01180: libcurl info message cache 7 (Closing connection 4)
+[2018.05.11-16.51.33:513][781]LogHttp:Warning: 0000014721377100: request failed, libcurl error: 0 (No error)
+[2018.05.11-16.51.33:513][781]LogHttp:Warning: 0000014721377100: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1468c3d7fe8 [serially])
+[2018.05.11-16.51.33:513][781]LogHttp:Warning: 0000014721377100: libcurl info message cache 1 (  Trying 52.202.184.141...)
+[2018.05.11-16.51.33:513][781]LogHttp:Warning: 0000014721377100: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.202.184.141) port 443 (#5))
+[2018.05.11-16.51.33:513][781]LogHttp:Warning: 0000014721377100: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.11-16.51.33:513][781]LogHttp:Warning: 0000014721377100: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.11-16.51.33:513][781]LogHttp:Warning: 0000014721377100: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.11-16.51.33:513][781]LogHttp:Warning: 0000014721377100: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.11-16.51.33:513][781]LogHttp:Warning: 0000014721377100: libcurl info message cache 7 (Closing connection 5)
+[2018.05.11-16.51.54:593][101]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 ../../../../../../Users/sk93183/Downloads/Big Rock Rolling Sound Effect (1).mp3)
+[2018.05.11-16.52.02:893][367]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/sk93183/Downloads/Big Rock Rolling Sound Effect (1).wav)
+[2018.05.11-16.52.57:674][233]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2018.05.11-16.53.33:226][809]LogHttp:Warning: 00000146963DB400: request failed, libcurl error: 0 (No error)
+[2018.05.11-16.53.33:226][809]LogHttp:Warning: 00000146963DB400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1468c3d7fe8 [serially])
+[2018.05.11-16.53.33:226][809]LogHttp:Warning: 00000146963DB400: libcurl info message cache 1 (  Trying 35.153.123.226...)
+[2018.05.11-16.53.33:226][809]LogHttp:Warning: 00000146963DB400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (35.153.123.226) port 443 (#6))
+[2018.05.11-16.53.33:226][809]LogHttp:Warning: 00000146963DB400: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.11-16.53.33:226][809]LogHttp:Warning: 00000146963DB400: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.11-16.53.33:226][809]LogHttp:Warning: 00000146963DB400: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.11-16.53.33:226][809]LogHttp:Warning: 00000146963DB400: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.11-16.53.33:226][809]LogHttp:Warning: 00000146963DB400: libcurl info message cache 7 (Closing connection 6)
+[2018.05.11-16.54.33:533][505]LogHttp:Warning: 00000146963DB700: request failed, libcurl error: 0 (No error)
+[2018.05.11-16.54.33:533][505]LogHttp:Warning: 00000146963DB700: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1468c3d7fe8 [serially])
+[2018.05.11-16.54.33:533][505]LogHttp:Warning: 00000146963DB700: libcurl info message cache 1 (  Trying 52.201.67.204...)
+[2018.05.11-16.54.33:533][505]LogHttp:Warning: 00000146963DB700: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.201.67.204) port 443 (#7))
+[2018.05.11-16.54.33:533][505]LogHttp:Warning: 00000146963DB700: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.11-16.54.33:533][505]LogHttp:Warning: 00000146963DB700: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.11-16.54.33:533][505]LogHttp:Warning: 00000146963DB700: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.11-16.54.33:533][505]LogHttp:Warning: 00000146963DB700: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.11-16.54.33:533][505]LogHttp:Warning: 00000146963DB700: libcurl info message cache 7 (Closing connection 7)
+[2018.05.11-16.55.16:128][429]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.11-16.55.16:215][429]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.11-16.55.16:216][429]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.11-16.55.16:219][429]PIE: New page: PIE session: FirstPersonExampleMap (May 11, 2018, 6:55:16 AM)
+[2018.05.11-16.55.16:219][429]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.05.11-16.55.16:286][429]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066946s)
+[2018.05.11-16.55.16:287][429]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.05.11-16.55.16:287][429]LogPlayLevel: PIE: World Init took: (0.001048s)
+[2018.05.11-16.55.16:289][429]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.069626s)
+[2018.05.11-16.55.16:363][429]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.05.11-16.55.16:377][429]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.05.11-11.55.16
+[2018.05.11-16.55.16:384][429]LogWorld: Bringing up level for play took: 0.011688
+[2018.05.11-16.55.16:470][429]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2018.05.11-16.55.16:476][429]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.615
+[2018.05.11-16.55.16:476][429]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.11-16.55.16:513][430]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.074380 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_1', movement 'Walking'
+[2018.05.11-16.55.39:207][366]LogNet: Browse: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2018.05.11-16.55.39:223][366]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2018.05.11-16.55.39:248][366]Cmd: MEM
+[2018.05.11-16.55.39:267][366]LogMemory: Platform Memory Stats for Windows
+[2018.05.11-16.55.39:267][366]LogMemory: Process Physical Memory: 2088.00 MB used, 2092.17 MB peak
+[2018.05.11-16.55.39:267][366]LogMemory: Process Virtual Memory: 2743.96 MB used, 2746.98 MB peak
+[2018.05.11-16.55.39:267][366]LogMemory: Physical Memory: 6407.93 MB used,  1741.00 MB free, 8148.94 MB total
+[2018.05.11-16.55.39:267][366]LogMemory: Virtual Memory: 3632.13 MB used,  1741.00 MB free, 134217728.00 MB total
+[2018.05.11-16.55.39:267][366]LogMemory: 
+[2018.05.11-16.55.39:267][366]Allocator Stats for TBB: (not implemented)
+[2018.05.11-16.55.39:267][366]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.05.11-16.55.39:314][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046615s)
+[2018.05.11-16.55.39:315][366]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.05.11-16.55.39:315][366]LogPlayLevel: PIE: World Init took: (0.001108s)
+[2018.05.11-16.55.39:315][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.048124s)
+[2018.05.11-16.55.39:315][366]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.05.11-16.55.39:321][366]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.05.11-11.55.39
+[2018.05.11-16.55.39:322][366]LogWorld: Bringing up level for play took: 0.005396
+[2018.05.11-16.55.39:324][366]LogLoad: Took 0.100672 seconds to LoadMap(/Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap)
+[2018.05.11-16.55.40:815][418]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.11-16.55.40:873][418]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.11-16.55.44:768][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_15)
+[2018.05.11-16.55.49:471][705]LogHttp:Warning: 0000014719547280: request failed, libcurl error: 0 (No error)
+[2018.05.11-16.55.49:471][705]LogHttp:Warning: 0000014719547280: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1468c3d7fe8 [serially])
+[2018.05.11-16.55.49:471][705]LogHttp:Warning: 0000014719547280: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.11-16.55.49:471][705]LogHttp:Warning: 0000014719547280: libcurl info message cache 2 (  Trying 35.174.89.230...)
+[2018.05.11-16.55.49:471][705]LogHttp:Warning: 0000014719547280: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (35.174.89.230) port 443 (#8))
+[2018.05.11-16.55.49:471][705]LogHttp:Warning: 0000014719547280: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.11-16.55.49:471][705]LogHttp:Warning: 0000014719547280: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.11-16.55.49:471][705]LogHttp:Warning: 0000014719547280: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.11-16.55.49:471][705]LogHttp:Warning: 0000014719547280: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.11-16.55.49:471][705]LogHttp:Warning: 0000014719547280: libcurl info message cache 8 (Closing connection 8)
+[2018.05.11-16.55.54:733][885]Cmd: TRANSACTION UNDO
+[2018.05.11-16.55.54:733][885]LogEditorTransaction: Undo Move Actors
+[2018.05.11-16.56.50:476][765]LogHttp:Warning: 0000014719564E80: request failed, libcurl error: 0 (No error)
+[2018.05.11-16.56.50:476][765]LogHttp:Warning: 0000014719564E80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1468c3d7fe8 [serially])
+[2018.05.11-16.56.50:476][765]LogHttp:Warning: 0000014719564E80: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.11-16.56.50:476][765]LogHttp:Warning: 0000014719564E80: libcurl info message cache 2 (  Trying 34.202.96.104...)
+[2018.05.11-16.56.50:476][765]LogHttp:Warning: 0000014719564E80: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.202.96.104) port 443 (#9))
+[2018.05.11-16.56.50:476][765]LogHttp:Warning: 0000014719564E80: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.11-16.56.50:476][765]LogHttp:Warning: 0000014719564E80: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.11-16.56.50:476][765]LogHttp:Warning: 0000014719564E80: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.11-16.56.50:476][765]LogHttp:Warning: 0000014719564E80: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.11-16.56.50:476][765]LogHttp:Warning: 0000014719564E80: libcurl info message cache 8 (Closing connection 9)
+[2018.05.11-16.58.33:225][955]LogHttp:Warning: 0000014723B2F700: request failed, libcurl error: 0 (No error)
+[2018.05.11-16.58.33:225][955]LogHttp:Warning: 0000014723B2F700: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1468c3d7fe8 [serially])
+[2018.05.11-16.58.33:225][955]LogHttp:Warning: 0000014723B2F700: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.11-16.58.33:225][955]LogHttp:Warning: 0000014723B2F700: libcurl info message cache 2 (  Trying 52.201.7.125...)
+[2018.05.11-16.58.33:225][955]LogHttp:Warning: 0000014723B2F700: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.201.7.125) port 443 (#10))
+[2018.05.11-16.58.33:225][955]LogHttp:Warning: 0000014723B2F700: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.11-16.58.33:225][955]LogHttp:Warning: 0000014723B2F700: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.11-16.58.33:225][955]LogHttp:Warning: 0000014723B2F700: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.11-16.58.33:225][955]LogHttp:Warning: 0000014723B2F700: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.11-16.58.33:225][955]LogHttp:Warning: 0000014723B2F700: libcurl info message cache 8 (Closing connection 10)
+[2018.05.11-16.59.33:259][528]LogHttp:Warning: 0000014716BFE680: request failed, libcurl error: 0 (No error)
+[2018.05.11-16.59.33:259][528]LogHttp:Warning: 0000014716BFE680: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1468c3d7fe8 [serially])
+[2018.05.11-16.59.33:259][528]LogHttp:Warning: 0000014716BFE680: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.05.11-16.59.33:259][528]LogHttp:Warning: 0000014716BFE680: libcurl info message cache 2 (  Trying 52.202.147.85...)
+[2018.05.11-16.59.33:259][528]LogHttp:Warning: 0000014716BFE680: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.202.147.85) port 443 (#11))
+[2018.05.11-16.59.33:259][528]LogHttp:Warning: 0000014716BFE680: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2018.05.11-16.59.33:259][528]LogHttp:Warning: 0000014716BFE680: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.11-16.59.33:259][528]LogHttp:Warning: 0000014716BFE680: libcurl info message cache 6 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.11-16.59.33:259][528]LogHttp:Warning: 0000014716BFE680: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.11-16.59.33:259][528]LogHttp:Warning: 0000014716BFE680: libcurl info message cache 8 (Closing connection 11)
+[2018.05.11-17.01.33:539][242]LogSavePackage: Save=780.60ms
+[2018.05.11-17.01.33:539][242]LogSavePackage: Moving '../../../../../../Users/sk93183/Documents/Unreal Projects/MyProject3/Saved/FirstPersonExampleMap_Auto2C8E62AD3410F37ED87942EB7EF646905.tmp' to '../../../../../../Users/sk93183/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2018.05.11-17.01.33:567][242]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sk93183/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap
+[2018.05.11-17.01.33:570][242]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.856
+[2018.05.11-17.01.33:571][242]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.856
+[2018.05.11-17.01.33:573][242]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CustomConent/Sounds/Big_Rock_Rolling_Sound_Effect__1_] ([1] browsable assets)...
+[2018.05.11-17.01.33:584][242]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/CustomConent/Sounds/Big_Rock_Rolling_Sound_Effect__1_.Big_Rock_Rolling_Sound_Effect__1_]
+[2018.05.11-17.01.33:584][242]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomConent/Sounds/Big_Rock_Rolling_Sound_Effect__1_]
+[2018.05.11-17.01.33:600][242]LogSavePackage: Save=12.84ms
+[2018.05.11-17.01.33:600][242]LogSavePackage: Moving '../../../../../../Users/sk93183/Documents/Unreal Projects/MyProject3/Saved/Big_Rock_Rolling_Sound_Effect__1__Auto2E9A43CCE435B90824E4E4F9E62E11C64.tmp' to '../../../../../../Users/sk93183/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/CustomConent/Sounds/Big_Rock_Rolling_Sound_Effect__1__Auto2.uasset'
+[2018.05.11-17.01.33:601][242]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sk93183/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/CustomConent/Sounds/Big_Rock_Rolling_Sound_Effect__1__Auto2.uasset
+[2018.05.11-17.01.33:601][242]LogFileHelpers: Auto-saving content packages took 0.029
+[2018.05.11-17.01.33:625][243]LogHttp:Warning: 000001469691B580: request failed, libcurl error: 0 (No error)
+[2018.05.11-17.01.33:625][243]LogHttp:Warning: 000001469691B580: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1468c3d7fe8 [serially])
+[2018.05.11-17.01.33:625][243]LogHttp:Warning: 000001469691B580: libcurl info message cache 1 (  Trying 34.238.221.216...)
+[2018.05.11-17.01.33:625][243]LogHttp:Warning: 000001469691B580: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.238.221.216) port 443 (#12))
+[2018.05.11-17.01.33:625][243]LogHttp:Warning: 000001469691B580: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.11-17.01.33:625][243]LogHttp:Warning: 000001469691B580: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.11-17.01.33:625][243]LogHttp:Warning: 000001469691B580: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.11-17.01.33:625][243]LogHttp:Warning: 000001469691B580: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.11-17.01.33:625][243]LogHttp:Warning: 000001469691B580: libcurl info message cache 7 (Closing connection 12)
+[2018.05.11-17.02.07:709][249]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.02.07:865][249]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.02.07:885][249]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.02.07:923][249]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.05.11-17.02.07:930][249]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.05.11-17.02.07:936][249]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.05.11-17.02.07:942][249]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.05.11-17.02.07:948][249]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.05.11-17.02.10:548][315]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.02.19:702][555]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2018.05.11-17.02.19:702][555]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.11-17.02.19:702][555]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.05.11-17.02.19:702][555]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.11-17.02.22:952][639]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.02.22:973][639]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.02.23:015][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.05.11-17.02.23:021][639]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.02.29:024][800]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2018.05.11-17.02.29:024][800]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.11-17.02.29:024][800]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.05.11-17.02.29:024][800]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.11-17.02.34:340][938]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.02.34:359][938]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.05.11-17.02.34:367][938]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.02.34:408][938]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.05.11-17.02.39:493][ 61]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.02.39:512][ 61]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.05.11-17.02.40:149][ 77]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.02.40:169][ 77]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.05.11-17.02.41:766][117]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.02.41:783][117]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.05.11-17.02.43:485][160]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.02.43:506][160]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.05.11-17.02.44:158][176]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.02.44:178][176]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.05.11-17.02.45:364][206]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.02.45:385][206]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.05.11-17.02.47:108][249]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.02.47:146][249]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.05.11-17.02.47:726][263]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.02.47:744][263]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.05.11-17.02.48:398][279]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.02.48:421][279]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.05.11-17.02.53:772][425]MaterialEditorStats: Info Base pass shader: 88 instructions
+[2018.05.11-17.02.53:772][425]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.11-17.02.53:772][425]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.05.11-17.02.53:772][425]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.11-17.03.00:774][620]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.03.03:243][685]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.03.07:931][807]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.03.08:013][808]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.05.11-17.03.11:532][895]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.03.11:532][895]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Door for platform PCD3D_SM5, Default Material will be used in game.
+[2018.05.11-17.03.11:532][895]LogMaterial:Warning: 	Function Blend_Screen: Missing function input 'Base'
+[2018.05.11-17.03.11:532][895]LogMaterial:Warning: 	Function Blend_Screen: Missing function input 'Blend'
+[2018.05.11-17.03.11:534][895]MaterialEditorStats:Error: Error [SM5] Function Blend_Screen: Missing function input 'Base'
+[2018.05.11-17.03.11:534][895]MaterialEditorStats:Error: Error [SM5] Function Blend_Screen: Missing function input 'Blend'
+[2018.05.11-17.03.13:193][937]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.03.13:194][937]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Door for platform PCD3D_SM5, Default Material will be used in game.
+[2018.05.11-17.03.13:194][937]LogMaterial:Warning: 	Function Blend_Screen: Missing function input 'Base'
+[2018.05.11-17.03.13:200][937]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.05.11-17.03.13:228][937]MaterialEditorStats:Error: Error [SM5] Function Blend_Screen: Missing function input 'Base'
+[2018.05.11-17.03.19:093][ 92]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.03.19:094][ 92]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Door for platform PCD3D_SM5, Default Material will be used in game.
+[2018.05.11-17.03.19:094][ 92]LogMaterial:Warning: 	Function Blend_Screen: Missing function input 'Base'
+[2018.05.11-17.03.19:095][ 92]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.05.11-17.03.22:227][173]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.03.22:249][173]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.05.11-17.03.24:300][224]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.03.24:318][224]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.05.11-17.03.25:209][246]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.03.25:227][246]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.05.11-17.03.29:584][354]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.03.29:601][354]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.05.11-17.03.30:835][384]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.03.30:855][384]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.05.11-17.03.33:238][445]LogHttp:Warning: 000001472A99E500: request failed, libcurl error: 0 (No error)
+[2018.05.11-17.03.33:238][445]LogHttp:Warning: 000001472A99E500: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1468c3d7fe8 [serially])
+[2018.05.11-17.03.33:238][445]LogHttp:Warning: 000001472A99E500: libcurl info message cache 1 (  Trying 52.44.209.208...)
+[2018.05.11-17.03.33:238][445]LogHttp:Warning: 000001472A99E500: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.44.209.208) port 443 (#13))
+[2018.05.11-17.03.33:238][445]LogHttp:Warning: 000001472A99E500: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.11-17.03.33:238][445]LogHttp:Warning: 000001472A99E500: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.11-17.03.33:238][445]LogHttp:Warning: 000001472A99E500: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.11-17.03.33:239][445]LogHttp:Warning: 000001472A99E500: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.11-17.03.33:239][445]LogHttp:Warning: 000001472A99E500: libcurl info message cache 7 (Closing connection 13)
+[2018.05.11-17.03.36:128][525]MaterialEditorStats: Info Base pass shader: 90 instructions
+[2018.05.11-17.03.36:128][525]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.11-17.03.36:128][525]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.05.11-17.03.36:128][525]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.11-17.03.42:741][703]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.03.42:741][703]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Door for platform PCD3D_SM5, Default Material will be used in game.
+[2018.05.11-17.03.42:742][703]LogMaterial:Warning: 	Function Blend_Screen: Missing function input 'Base'
+[2018.05.11-17.03.42:742][703]MaterialEditorStats:Error: Error [SM5] Function Blend_Screen: Missing function input 'Base'
+[2018.05.11-17.03.43:657][725]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.03.45:647][776]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.03.45:666][776]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.05.11-17.03.51:950][888]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.03.52:003][888]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.03.52:033][888]LogMaterial: Missing cached shader map for material Door, compiling. 
+[2018.05.11-17.03.52:088][888]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Door, compiling. 
+[2018.05.11-17.03.54:124][888]TextureStreamingBuild:Display: Compiling optional shaders took 2.045 seconds.
+[2018.05.11-17.04.12:780][451]Cmd: POLY TEXSCALE  UU=1.000000 VV=1.000000
+[2018.05.11-17.04.46:296][152]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.11-17.04.46:324][152]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.11-17.04.46:324][152]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.11-17.04.46:324][152]PIE: New page: PIE session: FirstPersonExampleMap (May 11, 2018, 7:04:46 AM)
+[2018.05.11-17.04.46:324][152]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.05.11-17.04.46:382][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056975s)
+[2018.05.11-17.04.46:383][152]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.05.11-17.04.46:383][152]LogPlayLevel: PIE: World Init took: (0.001066s)
+[2018.05.11-17.04.46:383][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.058328s)
+[2018.05.11-17.04.46:443][152]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.05.11-17.04.46:450][152]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.05.11-12.04.46
+[2018.05.11-17.04.46:451][152]LogWorld: Bringing up level for play took: 0.006214
+[2018.05.11-17.04.46:453][152]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.624
+[2018.05.11-17.04.46:464][152]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.11-17.05.18:354][681]LogNet: Browse: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2018.05.11-17.05.18:368][681]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2018.05.11-17.05.18:394][681]Cmd: MEM
+[2018.05.11-17.05.18:409][681]LogMemory: Platform Memory Stats for Windows
+[2018.05.11-17.05.18:409][681]LogMemory: Process Physical Memory: 1823.50 MB used, 2283.95 MB peak
+[2018.05.11-17.05.18:409][681]LogMemory: Process Virtual Memory: 2917.19 MB used, 2927.27 MB peak
+[2018.05.11-17.05.18:409][681]LogMemory: Physical Memory: 6251.61 MB used,  1897.32 MB free, 8148.94 MB total
+[2018.05.11-17.05.18:409][681]LogMemory: Virtual Memory: 3888.34 MB used,  1897.32 MB free, 134217728.00 MB total
+[2018.05.11-17.05.18:409][681]LogMemory: 
+[2018.05.11-17.05.18:409][681]Allocator Stats for TBB: (not implemented)
+[2018.05.11-17.05.18:410][681]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.05.11-17.05.18:464][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054737s)
+[2018.05.11-17.05.18:465][681]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.05.11-17.05.18:465][681]LogPlayLevel: PIE: World Init took: (0.000956s)
+[2018.05.11-17.05.18:466][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.056013s)
+[2018.05.11-17.05.18:466][681]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.05.11-17.05.18:475][681]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.05.11-12.05.18
+[2018.05.11-17.05.18:476][681]LogWorld: Bringing up level for play took: 0.009133
+[2018.05.11-17.05.18:477][681]LogLoad: Took 0.109219 seconds to LoadMap(/Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap)
+[2018.05.11-17.05.19:089][701]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.11-17.05.19:161][701]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.11-17.05.32:744][158]LogHttp:Warning: 00000146F4812680: request failed, libcurl error: 0 (No error)
+[2018.05.11-17.05.32:744][158]LogHttp:Warning: 00000146F4812680: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1468c3d7fe8 [serially])
+[2018.05.11-17.05.32:744][158]LogHttp:Warning: 00000146F4812680: libcurl info message cache 1 (  Trying 34.237.88.192...)
+[2018.05.11-17.05.32:744][158]LogHttp:Warning: 00000146F4812680: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.237.88.192) port 443 (#14))
+[2018.05.11-17.05.32:744][158]LogHttp:Warning: 00000146F4812680: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2018.05.11-17.05.32:744][158]LogHttp:Warning: 00000146F4812680: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.11-17.05.32:744][158]LogHttp:Warning: 00000146F4812680: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.05.11-17.05.32:744][158]LogHttp:Warning: 00000146F4812680: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.11-17.05.32:744][158]LogHttp:Warning: 00000146F4812680: libcurl info message cache 7 (Closing connection 14)
+[2018.05.11-17.06.19:037][995]Cmd: POLY TEXSCALE  UU=0.333333 VV=0.333333
+[2018.05.11-17.06.22:761][181]Cmd: TRANSACTION UNDO
+[2018.05.11-17.06.22:761][181]LogEditorTransaction: Undo Select Brush Surface
+[2018.05.11-17.06.23:153][181]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.392 s
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: === Handled ensure: ===
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: 
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: Ensure condition failed: Model->Surfs.IsValidIndex(Node.iSurf) [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Engine\Private\ModelRender.cpp] [Line: 578]
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: Invalid Surf Index, Idx:73, Num:0
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: Stack: 
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000CC6EE2B6
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000CC49B8C2
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000CC4B1E86
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000C70F3835
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000C70EFE89
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000BF823C37
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000BF81B8A4
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000BF849710
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000BF82300E
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000BF826357
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000BF842C0A
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000BF330154
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000BF85ABE5
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000BF8369C6
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000CC364D8C
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000CC3651AD
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: UE4Editor-RenderCore.dll!0x00000000CD101607
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: UE4Editor-RenderCore.dll!0x00000000CD1026F6
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000CC6FE6A8
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000CC6F8ED9
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: KERNEL32.DLL!0x0000000014A12774
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: ntdll.dll!0x0000000014C30D51
+[2018.05.11-17.06.23:153][181]LogOutputDevice:Error: 
+[2018.05.11-17.06.23:153][181]LogStats:                SubmitErrorReport -  0.000 s
